@@ -1,0 +1,129 @@
+.navbar{
+	background: #000;
+}
+.nav-item{
+	padding-left: 18px;
+}
+.navbar .nav-link{
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+/* CAROUSEL SECTION CSS */
+.carousel-item{
+  height: 450px;
+}
+.carousel-img-1{
+  background: url('../img/image1.jpeg');
+  background-size: cover;
+}
+.carousel-img-2{
+  background: url('../img/image2.jpeg');
+  background-size: cover;
+}
+.carousel-img-3{
+  background: url('../img/image3.jpeg');
+  background-size: cover;
+}
+/* HOME ICON SECTION */
+#home-icon .fa{
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+/* HOME STARTED SECTION */
+#home-started{
+	background-image: url('../img/bg1.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 250px;
+	position: relative;
+}
+#home-started .dark-overlay{
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+/* HOME VIDEO SECTION */
+#home-video{
+	background-image: url('../img/people.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 250px;
+	position: relative;
+}
+#home-video .dark-overlay{
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#home-video .fa{
+	font-size: 50px;
+	color: #ff0000;
+}
+#home-gallery img{
+	width: 350px;
+	height: 250px;
+}
+/*----------------------------------*/
+/* ABOUT SECTION CSS */
+/* ABOUT INTRO */
+#about-intro{
+	background-image: url('../img/image1.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 200px;
+}
+#about-info img{
+	width: 350px;
+	height: 350px;
+}
+#about-icon .fa{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+#testimonial .slick-prev::before,
+#testimonial .slick-next::before{
+	color: #000;
+}
+/* SERVICES CSS */
+/* SERVUCES INTRO*/
+#services-intro{
+	background-image: url('../img/image3.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 200px;
+}
+/* BLOG CSS*/
+/* BLOG INTRO SECTION */
+#blog-intro{
+	background-image: url('../img/image3.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 200px;
+}
+/* CONTACT INTRO */
+#contact-intro{
+	background-image: url('../img/image3.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 200px;
+}
+/* FOOTER SECTION */
+
+#footer-section{
+	background: #000;
+}
+
+@media(max-width: 768px){
+	#home-gallery img{
+	width: 350px;
+	height: 150px;
+	}
+}
+@media(max-width: 767px){
+	#home-gallery img{
+	width: 350px;
+	height: 250px;
+	}
+}
